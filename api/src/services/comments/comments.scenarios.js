@@ -27,7 +27,7 @@ export const postOnly = defineScenario({
   post: {
     bark: {
       title: 'Bark',
-      body: 'Sphinx of black quartz, judge my vow.',
+      body: "A tree's bark is worse than its bite.",
     },
   },
 })

@@ -12,7 +12,7 @@ export const createComment = ({ input }) => {
 }
 
 export const deleteComment = ({ id }) => {
-  requireAuth({ role: 'moderator' })
+  console.info('deleteComment')
   return db.comment.delete({
     where: { id },
   })
