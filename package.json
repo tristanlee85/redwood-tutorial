@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy"
+  },
   "private": true,
   "workspaces": {
     "packages": [
@@ -7,7 +12,12 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "^0.38.0"
+    "@layer0/cli": "^4.0.1",
+    "@layer0/core": "^4.0.1",
+    "@layer0/devtools": "^4.0.1",
+    "@layer0/prefetch": "^4.0.1",
+    "@redwoodjs/core": "^0.38.0",
+    "toml": "^3.0.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"
