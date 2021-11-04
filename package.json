@@ -12,12 +12,12 @@
     ]
   },
   "devDependencies": {
-    "@layer0/cli": "^4.0.1",
-    "@layer0/core": "^4.0.1",
-    "@layer0/devtools": "^4.0.1",
-    "@layer0/prefetch": "^4.0.1",
-    "@redwoodjs/core": "^0.38.0",
-    "toml": "^3.0.0"
+    "@layer0/cli": "4.2.1-next-1636001692-0a2fb3159.0",
+    "@layer0/core": "4.2.1-next-1636001692-0a2fb3159.0",
+    "@layer0/devtools": "4.2.1-next-1636001692-0a2fb3159.0",
+    "@layer0/prefetch": "4.2.1-next-1636001692-0a2fb3159.0",
+    "@layer0/redwood": "4.2.1-next-1636001692-0a2fb3159.0",
+    "@redwoodjs/core": "^0.38.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"
@@ -28,5 +28,6 @@
   },
   "prisma": {
     "seed": "yarn rw exec seed"
-  }
+  },
+  "dependencies": {}
 }
